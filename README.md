@@ -1,4 +1,6 @@
  **ESP32 Offline Voice Recognition (ON / OFF)**
+
+ 
 An end-to-end **embedded machine learning system** that runs on an **ESP32** and recognizes voice commands (“ON” / “OFF”) using an **INMP441 I2S microphone**, enabling real-time offline device control without cloud dependency.
 
 *Project Overview*
