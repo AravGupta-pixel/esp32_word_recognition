@@ -1,12 +1,12 @@
- ESP32 Offline Voice Recognition (ON / OFF) 
+ **ESP32 Offline Voice Recognition (ON / OFF)**
 An end-to-end **embedded machine learning system** that runs on an **ESP32** and recognizes voice commands (“ON” / “OFF”) using an **INMP441 I2S microphone**, enabling real-time offline device control without cloud dependency.
 
-Project Overview
+*Project Overview*
 
 This project implements a **TinyML-based keyword spotting system** that runs completely on-device. The system listens for voice commands and triggers actions instantly, without relying on Wi-Fi, cloud APIs, or external servers.
 
  
- Key Features
+ **Key Features**
 
 *  Fully offline voice recognition
 *  Keyword detection: `"ON"` / `"OFF"`
@@ -15,7 +15,7 @@ This project implements a **TinyML-based keyword spotting system** that runs com
 *  Custom dataset recorded from actual hardware mic
 *  End-to-end ML pipeline (data → training → deployment)
 
- Hardware Used
+ **Hardware Used**
 
 * ESP32 Dev Board
 * INMP441 I2S Microphone
@@ -42,7 +42,7 @@ ESP32 Deployment
         ↓
 Real-time Voice Control
 
- Tech Stack
+ **Tech Stack**
 
 * ESP32 (Arduino Framework)
 * I2S Audio Protocol
@@ -67,7 +67,7 @@ Each sample is stored as a `.wav` file for training.
 
 ---
 
-## 🧪 Model Training
+ **Model Training**
 
 The model was trained using:
 
@@ -77,7 +77,7 @@ The model was trained using:
 * Converted to TensorFlow Lite for microcontroller deployment
 
 ---
- Challenges & Fixes
+**Challenges & Fixes**
 
 ### 1. INMP441 32-bit I2S Audio Issue
 
@@ -137,5 +137,5 @@ esp32-voice-recognition/
 
 This project demonstrates how **embedded ML + microcontrollers** can be used to build real-world voice-controlled systems without cloud dependency. It also highlights the importance of **hardware-aware dataset collection and signal processing** in TinyML systems.
 
-this is my first repo and a project so please excuse me for any documentation error 
+*this is my first repo and a project so please excuse me for any documentation error* 
 
